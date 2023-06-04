@@ -12,6 +12,7 @@
 }
 body{
     background-color: rgb(28, 44, 58);
+    display: flex;
     
 }
 .disable{
@@ -61,6 +62,7 @@ body{
     background-color: rgb(81, 99, 116);
     border-radius: 10px;
     z-index:100;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
 }
 .menu-option{
     width: 90%;
@@ -181,6 +183,7 @@ body{
     border-radius: 10px;
     padding: 20px;
     background-image: url("/resources/img/sign-in-background.png");
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
 }
 
 .sign-top{
@@ -249,39 +252,6 @@ form input{
     font-weight: bold;
 }
 
-@media screen and (max-width: 690px) {
-    div.search-area {
-      display: none;
-    }
-    div.search-bar {
-        width: 35px;
-        height: 35px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    div.navbar-sub-1{
-        justify-content: start;
-        margin-left: 20px;
-    }
-    div.navbar-sub-2{
-        justify-content: end;
-
-    }
-    div.full-menu{
-        margin-left: -180px;
-    }
-    .navbar{
-        height: 8vh;
-    }
-    div.navbar-sub img{
-        width: 140px;
-        height: 30px;
-    }
-    div.banner{
-        height: 50vh;
-    }
-}
 @media screen and (max-width: 1080px) {
     div.sign-in p{
         display: none;
@@ -291,6 +261,49 @@ form input{
         height: 35px;
         border-radius: 5px;
     }
+}
+@media screen and (max-width: 1024px) {
+    div.search-area {
+        padding-right: 20px;
+    }
+    div.navbar-sub-1{
+        justify-content: end;
+        margin-left: 20px;
+    }
+    div.navbar-sub-2{
+        justify-content: end;
+
+    }
+    div.full-menu{
+        margin-left: -150px;
+
+    }
+    .navbar{
+        height: 8vh;
+    }
+    div.navbar-sub img{
+        width: 140px;
+        height: 30px;
+    }
+    div.banner{
+        height: 75vh;
+    }
+}
+@media screen and (max-width: 600px) {
+    div.search-area {
+        display: none;
+      }
+    div.search-bar {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    div.banner{
+        height: 40vh;
+    }
+
 }
 
 /* ----------BANNER---------- */
@@ -308,4 +321,76 @@ form input{
     flex-shrink: 0;
     width: 100%;
     height: 100%
+}
+.middle-banner{
+    width: 100%;
+    height: 100px;
+    border: yellow 1px solid;
+    margin: 20px 0 20px 0;
+}
+/* ----------MOVIE---------- */
+.movie{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    border: red 1px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+}
+.movie-con{
+    height: 300px;
+    background-image: url("/resources/img/sign-in-background.png");
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    border-radius: 5px;
+    margin: 5px;
+    position: relative;
+}
+.movie-poster{
+    border-radius: 5px;
+    width: 100%;
+    height: 80%;
+
+}
+.movie-poster img{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.movie-name{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    border-radius: 0 0 5px 5px;
+    color: white;
+    padding-left: 10px ;
+    font-size: .9em;
+    align-items: center;
+}
+.details-con{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+.movie-details{
+    display: flex;
+    width: 65%;
+    height: 100%;
+    color: white;
+    padding: 0 10px 0 10px;
+    font-size: .9em;
+    align-items: center;
+    justify-content: space-between;
+}
+.genre{
+    width: 50px;
+    height: 80%;
+    display: flex;
+    color: white;
+    border: gray 2px solid;
+    border-radius: 10px;
+    font-size: .8em;
+    justify-content: center;
+    align-items: center;
 }
