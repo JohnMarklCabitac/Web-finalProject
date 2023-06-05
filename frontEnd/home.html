@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/0d215fdffe.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/home.css">
-    <script src="/javaScript/sign-in.js"></script>
+    <!-- <script src="/javaScript/sign-in.js"></script> -->
     <script src="/javaScript/menu.js"></script>
     
     <title>Eyewatch/home</title>
@@ -52,56 +52,98 @@
                 </div>
             </div>
             <div class="navbar-sub-2">
-                <div class="sign-in">
-                    <button class="signbutton" type="button"> 
+                <div class="log-in">
+                    <button class="loginbutton" type="button"> 
                     <i class="fa-solid fa-user fa-lg" style="color: #ffffff;"></i>
-                    <p>Sign in</p>
+                    <p>Log in</p>
                     </button>
                 </div>
             </div>
         </div>
         <!-- navbar-end -->
 
-        <!-- Sign-in -->
-        <div class="main-signup-con hide">
-            <div class="sign-form">
-                <div class="sign-top">
+        <!-- Login -->
+        <div class="main-login-con hide">
+            <div class="login-form">
+                <div class="login-top">
                     <img src="/resources/img/logo-01.png" alt="">
-                    <h2>Sign In</h2>
+                    <h2>Log-in</h2>
                 </div>
-                <div class="form-con">
+                <div class="login-form-con">
                     <form>
                         <p>Username</p>
-                        <div class="form-input">
-                            <input type="text" required>
+                        <div class="login-form-input">
+                            <input type="text" required id="#" name="#" >
                             <i class="fa-solid fa-user fa-lg" style="color: #ffffff;"></i>
                         </div>
-
-                        <p>Email</p>
-                        <div class="form-input">
-                            <input type="email" required>
-                            <i class="fa-solid fa-envelope fa-lg" style="color: #ffffff;"></i>
-                        </div>
-                        
                         <p>Password</p>
-                        <div class="form-input">
-                            <input type="password" required>
+                        <div class="login-form-input">
+                            <input type="password" required id="#" name="#" >
                             <i class="fa-solid fa-lock fa-lg" style="color: #ffffff;"></i>
                         </div>
 
                         <p>Repeat Password</p>
-                        <div class="form-input">
-                            <input type="password" required>
+                        <div class="login-form-input">
+                            <input type="password" required id="#" name="#" >
                             <i class="fa-solid fa-lock fa-lg" style="color: #ffffff;"></i>
                         </div>
+                        <div class="term">
+                            <input type="checkbox" id="#" name="#" >
+                            Remember me
+                        </div>
                     </form>
-                    <div class="register-btn">
-                        <button type="submit">Register</button>
+                    <div class="login-btn">
+                        <button type="submit">Log In</button>
+                    </div>
+
+                    <div class="reg">
+                        <p>Don't have an account? <a href="#">Register</a></p>
                     </div>
                 </div>
             </div>
         </div>
-        
+        <!-- Login-end -->
+
+        <!-- Signin -->
+        <div class="main-signin-con hide">
+            <div class="signin-form">
+                <div class="close">
+                    <i class="fa-sharp fa-regular fa-circle-xmark fa-xl" style="color: #ffa53e;"></i>
+                </div>
+                <div class="signin-top">
+                    <img src="/resources/img/logo-01.png" alt="">
+                    <h2>Sign-in</h2>
+                </div>
+                <div class="signin-form-con">
+                    <form>
+                        <p>Username</p>
+                        <div class="signin-form-input">
+                            <input type="text" required>
+                            <i class="fa-solid fa-user fa-lg" style="color: #ffffff;"></i>
+                        </div>
+                        <p>Email</p>
+                        <div class="signin-form-input">
+                            <input type="email" required>
+                            <i class="fa-solid fa-envelope fa-lg" style="color: #ffffff;"></i>
+                        </div>
+                        <p>Password</p>
+                        <div class="signin-form-input">
+                            <input type="password" required>
+                            <i class="fa-solid fa-lock fa-lg" style="color: #ffffff;"></i>
+                        </div>
+                        <p>Repeat Password</p>
+                        <div class="signin-form-input">
+                            <input type="password" required>
+                            <i class="fa-solid fa-lock fa-lg" style="color: #ffffff;"></i>
+                        </div>
+                    </form>
+                    <div class="signin-btn">
+                        <button type="submit">Sign in</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Signin-end -->
 
         <div class="banner">
             <img src="/resources/img/banner.jpg" alt="">

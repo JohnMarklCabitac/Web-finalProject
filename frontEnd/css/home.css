@@ -124,7 +124,7 @@ body{
     justify-content: center;
 }
 
-/* Sign-in button*/
+/* nav-bar Sign-in button*/
 .navbar-sub-2{
     display: flex;
     height: 100%;
@@ -132,7 +132,7 @@ body{
     align-items: center;
     justify-content: end;
 }
-.sign-in{
+.log-in{
     display: flex;
     height: 44px;
     width: 20%;
@@ -142,7 +142,7 @@ body{
     margin-right: 8%;
     background: linear-gradient(to right, rgb(247, 28, 61), rgb(255, 165, 46));
 }
-.sign-in button{
+.log-in button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,17 +155,17 @@ body{
     width: 100%;
     gap: 5px;
 }
-.sign-in :hover{
+.log-in :hover{
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     border-radius: 10px;
 }
-.sign-in p{
+.log-in p{
     box-shadow: none !important;
 }
 
-/* Sign-in form */
-.main-signup-con{
+/* Log-in form */
+.main-login-con{
     display: flex;
     justify-content: center;
     position: absolute;
@@ -175,7 +175,7 @@ body{
     z-index: index 15;
     background-color: rgba(124, 143, 161, 0.7) !important;
 }
-.sign-form{
+.login-form{
     display: block;
     width: 350px;
     height: 425px;
@@ -186,7 +186,7 @@ body{
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
 }
 
-.sign-top{
+.login-top{
     display: flex;
     width: 100%;
     height: 15%;
@@ -194,34 +194,35 @@ body{
     align-items: center;
     gap: 10px;
 }
-.sign-top img{
+.login-top img{
     height: 80%;
     width: auto;
 }
-.sign-top h2{
+.login-top h2{
     background: -webkit-linear-gradient(rgb(247, 28, 61), rgb(255, 165, 46));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.form-con{
+.login-form-con{
     display: block;
     width: auto;
     height: 80%;
     align-items: center;
-    color: white;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
 }
-.form-con p{
+.login-form-con p{
     font-weight: light;
+    margin-top: 10px;
+    color: white;
 }
-.form-input{
-    height: 40px;
+.login-form-input{
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-form input{
+.login-form-input input{
     direction: none !important;
     background-color: transparent;
     border: none;
@@ -231,7 +232,7 @@ form input{
     color: white;
     padding-left: 5px;
 }
-.register-btn{
+.login-btn{
     background: linear-gradient(to right, rgb(247, 28, 61), rgb(255, 165, 46));
     margin-top: 20px;
     margin-left: 95px;
@@ -240,7 +241,7 @@ form input{
     display: flex;
     border-radius: 10px;
 }
-.register-btn button{
+.login-btn button{
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -251,6 +252,144 @@ form input{
     font-size: 15px;
     font-weight: bold;
 }
+.login-btn :hover{
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+}
+.login-btn p{
+    box-shadow: none !important;
+}
+.term{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    font-size: 0.9em;
+    font-weight: light;
+    align-items: center;
+    color: white;
+    gap: 5px;
+}
+.reg{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    font-weight: light;
+}
+.reg a{
+    color:rgb(255, 165, 46);
+}
+.close{
+    display: flex;
+    width: 100%;
+    height: 10px;
+    justify-content: end;
+    align-items: center;
+}
+.close :hover{
+    cursor: pointer;
+}
+
+/* Sign-in form */
+.main-signin-con{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    z-index: index 15;
+    background-color: rgba(124, 143, 161, 0.7) !important;
+}
+.signin-form{
+    display: block;
+    width: 350px;
+    height: 425px;
+    z-index: index 20;
+    border-radius: 10px;
+    padding: 20px;
+    background-image: url("/resources/img/sign-in-background.png");
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.signin-top{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+.signin-top img{
+    height: 80%;
+    width: auto;
+}
+.signin-top h2{
+    background: -webkit-linear-gradient(rgb(247, 28, 61), rgb(255, 165, 46));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.signin-form-con{
+    display: block;
+    width: auto;
+    height: 80%;
+    align-items: center;
+    padding: 0 20px 20px 20px;
+}
+.signin-form-con form p{
+    font-weight: light;
+    color: white;
+    margin-top: 10px
+}
+.signin-form-input{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+.signin-form-input input{
+    direction: none !important;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    outline: none;
+    width: 90%;
+    color: white;
+    padding-left: 5px;
+}
+.signin-btn{
+    background: linear-gradient(to right, rgb(247, 28, 61), rgb(255, 165, 46));
+    margin-top: 20px;
+    margin-left: 95px;
+    height: 40px;
+    width: 80px;
+    display: flex;
+    border-radius: 10px;
+}
+.signin-btn button{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.signin-btn :hover{
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+}
+.signin-btn p{
+    box-shadow: none !important;
+}
+
 
 @media screen and (max-width: 1080px) {
     div.sign-in p{
@@ -331,7 +470,7 @@ form input{
 /* ----------MOVIE---------- */
 .movie{
     width: 100%;
-    height: 340px;
+    height: auto;
     display: flex;
     border: red 1px solid;
     display: grid;
