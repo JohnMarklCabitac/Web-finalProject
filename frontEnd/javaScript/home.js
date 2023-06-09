@@ -44,3 +44,19 @@ document.addEventListener('DOMContentLoaded', function() {
         scroll.classList.romove('disable')
     });
   });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var movies = document.querySelector('#category-movies');
+    var series = document.querySelector('#category-series');
+    
+    movies.style.background = 'linear-gradient(to right, rgb(247, 28, 61), rgb(255, 165, 46))';
+    movies.addEventListener('click', function() {
+      movies.style.background = 'linear-gradient(to right, rgb(247, 28, 61), rgb(255, 165, 46))';
+      series.style.background = '';
+    });
+  
+    series.addEventListener('click', function() {
+      series.style.background = 'linear-gradient(to right, rgb(247, 28, 61), rgb(255, 165, 46))';
+      movies.style.background = '';
+    });
+  });

@@ -392,13 +392,16 @@ body{
 
 
 @media screen and (max-width: 1080px) {
-    div.sign-in p{
+    div.log-in p{
         display: none;
         }
-    div.sign-in{
+    div.log-in{
         width: 35px;
         height: 35px;
         border-radius: 5px;
+    }
+    div.category p{
+        display: none;
     }
 }
 @media screen and (max-width: 1024px) {
@@ -444,11 +447,8 @@ body{
     }
 
 }
-
-/* ----------BANNER---------- */
-
+/* ----------ROLLING POSTER---------- */
 .banner{
-    border: blue 2px solid;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -461,18 +461,132 @@ body{
     width: 100%;
     height: 100%
 }
+/* ----------BANNER---------- */
+
+
 .middle-banner{
     width: 100%;
     height: 100px;
-    border: yellow 1px solid;
-    margin: 20px 0 20px 0;
+    margin-top: 10px;
 }
+.mid-banner-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    gap: 10px;
+}
+.mid-banner-2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    gap: 10px;
+    color: white;
+    padding-left: 20px;
+}
+.mid-banner-2 p{
+    font-weight: light;
+    font-size: 3vmin;
+}
+#social-f{
+    width: 8%;
+    height: 40px;
+    background: rgb(59,89,152);
+    background: linear-gradient(50deg, rgba(59,89,152,1) 0%, rgba(1,101,225,1) 23%, rgba(23,169,253,1) 100%);
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    padding-left: 1.7%;
+}
+#social-t{
+    width: 8%;
+    height: 40px;
+    background: rgb(0,172,238);
+    background: linear-gradient(50deg, rgba(0,172,238,1) 0%, rgba(54,216,255,1) 23%, rgba(245,248,250,1) 100%);
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    padding-left: 1.7%;
+}
+#social-m{
+    width: 8%;
+    height: 40px;
+    background: rgb(255,143,170);
+    background: linear-gradient(50deg, rgba(255,143,170,1) 0%, rgba(167,151,255,1) 23%, rgba(0,229,255,1) 100%);
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    padding-left: 1.7%;
+}
+#social-r{
+    width: 8%;
+    height: 40px;
+    background: rgb(204,84,0);
+    background: linear-gradient(50deg, rgba(204,84,0,1) 0%, rgba(255,69,0,1) 23%, rgba(255,165,0,1) 100%);
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    padding-left: 1.7%;
+}
+#social-tl{
+    width: 8%;
+    height: 40px;
+    background: rgb(0,136,204);
+    background: linear-gradient(50deg, rgba(0,136,204,1) 59%, rgba(255,255,255,1) 100%);
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    padding-left: 1.7%;
+}
+#social-i{
+    width: 8%;
+    height: 40px;
+    background: rgb(64,93,230);
+    background: linear-gradient(50deg, rgba(64,93,230,1) 36%, rgba(131,58,180,0.9809173669467787) 61%, rgba(253,29,29,1) 82%);
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    padding-left: 1.7%;
+}
+.social:hover{
+    cursor: pointer;
+    transform:translateY(2px);
+}
+
+.category{
+    width: 7%;
+    height: 35px;
+    gap: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+.category p{
+    font-size: 1.9vmin;
+    font-weight: lighter;
+}
+.category:hover{
+    cursor: pointer;
+    transform: translateY(2px);
+}
+#category-movies{
+    border: 2px rgb(247, 28, 61) solid;
+}
+#category-series{
+    border: 2px rgb(247, 28, 61) solid;
+}
+
+
 /* ----------MOVIE---------- */
 .movie{
     width: 100%;
     height: auto;
     display: flex;
-    border: red 1px solid;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
 }
