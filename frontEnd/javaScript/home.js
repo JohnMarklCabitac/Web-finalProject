@@ -13,14 +13,26 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   
   document.addEventListener('DOMContentLoaded', function() {
-    var signbutton = document.querySelector('.loginbutton');
+    var loginbutton = document.querySelector('.loginbutton');
     var registerbutton = document.querySelector('.reg');
     var login = document.querySelector('.main-login-con');
     var signin = document.querySelector('.main-signin-con');
     var scroll = document.querySelector('.scroll');
     var close = document.querySelector('.fa-circle-xmark');
-  
-    signbutton.addEventListener('click', function() {
+    var rollingImg = document.querySelector('.slideshow-container');
+    
+    
+    loginbutton.addEventListener('click', function() {
+      rollingImg.classList.add('hide');
+      if(!login.classList.contains('hide')){
+        rollingImg.classList.remove('hide');
+      }
+      if(!signin.classList.contains('hide')){
+        rollingImg.classList.remove('hide');
+      }
+    });
+
+    loginbutton.addEventListener('click', function() {
       if(login.classList.contains('hide')){
             login.classList.remove('hide');
             signin.classList.add('hide')
@@ -38,9 +50,13 @@ document.addEventListener('DOMContentLoaded', function() {
         login.classList.add('hide')
         scroll.classList.add('disable')
       }
+      else if(!signin.classList.contains('hide')){
+        
+      }
     });
     close.addEventListener('click', function() {
         signin.classList.add('hide')
+        rollingImg.classList.remove('hide');
         scroll.classList.romove('disable')
     });
   });
@@ -60,3 +76,4 @@ document.addEventListener('DOMContentLoaded', function() {
       movies.style.background = '';
     });
   });
+
