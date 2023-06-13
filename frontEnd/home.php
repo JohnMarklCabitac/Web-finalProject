@@ -10,7 +10,7 @@
     ></script>
     <link rel="stylesheet" href="./css/home.css" />
     <link rel="stylesheet" href="./css/rollingPoster.css" />
-    <script src="./javaScript/home.js"></script>
+    <script defer src="./javaScript/home.js"></script>
 
     <title>Eyewatch/home</title>
   </head>
@@ -92,7 +92,7 @@
 
       <!-- Movies -->
       <div class="movie">
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img src="./resources/img/moviePoster/65.jpg" alt="65" />
           </div>
@@ -110,7 +110,7 @@
           </div>
         </div>
 
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/dungeons&dragons.jpg"
@@ -130,7 +130,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img src="./resources/img/moviePoster/ghosted.jpg" alt="ghosted" />
           </div>
@@ -147,7 +147,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/johnWick4.jpg"
@@ -167,7 +167,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/murderMystery2.jpg"
@@ -187,7 +187,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/pope'sExorcist.jpg"
@@ -207,7 +207,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/tin&tina.jpg"
@@ -227,7 +227,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/unlocked.jpg"
@@ -247,7 +247,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img src="./resources/img/moviePoster/jungE.jpg" alt="June_E" />
           </div>
@@ -264,7 +264,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img src="./resources/img/moviePoster/sharper.jpg" alt="Sharper" />
           </div>
@@ -281,7 +281,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img src="./resources/img/moviePoster/shazam.jpg" alt="Shazam" />
           </div>
@@ -298,7 +298,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img src="./resources/img/moviePoster/tetris.jpg" alt="Tetris" />
           </div>
@@ -315,7 +315,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/legionofSuperHeroes.jpg"
@@ -335,7 +335,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/knockattheCabin.jpg"
@@ -355,7 +355,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/antMan.jpg"
@@ -375,7 +375,8 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img src="./resources/img/moviePoster/fastX.jpg" alt="Fast X" />
           </div>
@@ -392,24 +393,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
-          <div class="movie-poster">
-            <img src="./resources/img/moviePoster/fastX.jpg" alt="Fast X" />
-          </div>
-          <div class="movie-name">
-            <p>Fast X</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>141m</p>
-            </div>
-            <div class="genre">
-              <p>Action</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/theSuperMarioBros..jpg"
@@ -429,7 +413,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/spiderMan.jpg"
@@ -449,7 +433,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/guardiansOfTheGalaxyVol3.jpg"
@@ -469,7 +453,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/theLittleMermaid.jpg"
@@ -489,7 +473,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/theMothersDay.jpg"
@@ -509,7 +493,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img src="./resources/img/moviePoster/robots.jpg" alt="Robots" />
           </div>
@@ -526,7 +510,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/loveAgain.jpg"
@@ -546,7 +530,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/hypnotic.jpg"
@@ -566,7 +550,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/warOfTheWorldsTheAttack.jpg"
@@ -586,7 +570,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img src="./resources/img/moviePoster/paint.jpg" alt="Paint" />
           </div>
@@ -603,7 +587,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/bookClub.jpg"
@@ -623,7 +607,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/sweetWater.jpg"
@@ -643,7 +627,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/evilDeadRise.jpg"
@@ -663,7 +647,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/guyRitchie'sTheCovenant.jpg"
@@ -683,7 +667,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/bigGeorgeForeman.jpg"
@@ -703,7 +687,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/thsBlackDemonPoster.jpg"
@@ -723,7 +707,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img src="./resources/img/moviePoster/sisuPoster.jpg" alt="Sisu" />
           </div>
@@ -740,7 +724,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/toCatchAKillerPoster.jpg"
@@ -760,7 +744,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/brooklyn45Poster.jpg"
@@ -780,7 +764,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/theSecretKingdom.jpg"
@@ -800,7 +784,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/iLikeMovies.jpg"
@@ -820,7 +804,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/transformersRiseoftheBeastsPoster.jpg"
@@ -840,7 +824,7 @@
             </div>
           </div>
         </div>
-        <div class="movie-con">
+        <div class="movie-con hidden">
           <div class="movie-poster">
             <img
               src="./resources/img/moviePoster/youToYouPoster.jpg"

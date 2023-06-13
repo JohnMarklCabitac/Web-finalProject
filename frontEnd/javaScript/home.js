@@ -73,3 +73,23 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+const observer = new IntersectionObserver((entries) => {
+  // the entries variable is an array
+  // we're using the forEach function to iterate through the array
+  let length = 0;
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+      entry.target.style.transitionDelay = `${length}ms`;
+      length += 100;
+      console.log(length);
+    } else {
+      entry.target.classList.remove("show");
+      entry.target.style.transitionDelay = `0ms`;
+    }
+  });
+});
+
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach((el) => observer.observe(el));
