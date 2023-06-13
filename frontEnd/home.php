@@ -11,8 +11,6 @@
     <link rel="stylesheet" href="./css/home.css" />
     <link rel="stylesheet" href="./css/rollingPoster.css" />
     <script defer src="./javaScript/home.js"></script>
-
-    <title>Eyewatch/home</title>
   </head>
   <body class="scroll">
     <div class="main-container">
@@ -92,758 +90,792 @@
 
       <!-- Movies -->
       <div class="movie">
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img src="./resources/img/moviePoster/65.jpg" alt="65" />
-          </div>
-          <div class="movie-name">
-            <p>65</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>120m</p>
+        <a href="movie.php?id=1">
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img src="./resources/img/moviePoster/65.jpg" alt="65" />
             </div>
-            <div class="genre">
-              <p>Action</p>
+            <div class="movie-name">
+              <p>65</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>120m</p>
+              </div>
+              <div class="genre">
+                <p>Action</p>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
 
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/dungeons&dragons.jpg"
-              alt="dungeons&dragons"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Dungeons & Dragons</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>134m</p>
-            </div>
-            <div class="genre">
-              <p>Fantasy</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img src="./resources/img/moviePoster/ghosted.jpg" alt="ghosted" />
-          </div>
-          <div class="movie-name">
-            <p>Ghosted</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>116m</p>
-            </div>
-            <div class="genre">
-              <p>Action</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/johnWick4.jpg"
-              alt="johnWick4"
-            />
-          </div>
-          <div class="movie-name">
-            <p>John Wick 4</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>169m</p>
-            </div>
-            <div class="genre">
-              <p>Action</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/murderMystery2.jpg"
-              alt="murderMystery2"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Murder Mystery 2</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>89m</p>
-            </div>
-            <div class="genre">
-              <p>Mystery</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/pope'sExorcist.jpg"
-              alt="pope'sExorcist"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Pope's Exorcist</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>103m</p>
-            </div>
-            <div class="genre">
-              <p>Horror</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/tin&tina.jpg"
-              alt="tin&tina"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Tin & Tina</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>119m</p>
-            </div>
-            <div class="genre">
-              <p>Thriller</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/unlocked.jpg"
-              alt="unlocked"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Unlocked</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>117m</p>
-            </div>
-            <div class="genre">
-              <p>Thriller</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img src="./resources/img/moviePoster/jungE.jpg" alt="June_E" />
-          </div>
-          <div class="movie-name">
-            <p>June_E</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>99m</p>
-            </div>
-            <div class="genre">
-              <p>Sci-fi</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img src="./resources/img/moviePoster/sharper.jpg" alt="Sharper" />
-          </div>
-          <div class="movie-name">
-            <p>Sharper</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>116m</p>
-            </div>
-            <div class="genre">
-              <p>Drama</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img src="./resources/img/moviePoster/shazam.jpg" alt="Shazam" />
-          </div>
-          <div class="movie-name">
-            <p>Shazam</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>130m</p>
-            </div>
-            <div class="genre">
-              <p>Action</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img src="./resources/img/moviePoster/tetris.jpg" alt="Tetris" />
-          </div>
-          <div class="movie-name">
-            <p>Tetris</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>118m</p>
-            </div>
-            <div class="genre">
-              <p>Drama</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/legionofSuperHeroes.jpg"
-              alt="legionofSuperHeroes"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Legion of Super-Heroes</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>83m</p>
-            </div>
-            <div class="genre">
-              <p>Action</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/knockattheCabin.jpg"
-              alt="knockattheCabin"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Knock at the Cabin</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>100m</p>
-            </div>
-            <div class="genre">
-              <p>Horror</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/antMan.jpg"
-              alt="Ant-Man and the Wasp: Quantumania"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Ant-Man and the Wasp: Quantumania</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>125m</p>
-            </div>
-            <div class="genre">
-              <p>Action</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img src="./resources/img/moviePoster/fastX.jpg" alt="Fast X" />
-          </div>
-          <div class="movie-name">
-            <p>Fast X</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>141m</p>
-            </div>
-            <div class="genre">
-              <p>Action</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/theSuperMarioBros..jpg"
-              alt="theSuperMarioBros."
-            />
-          </div>
-          <div class="movie-name">
-            <p>The Super Mario Bros.</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>92m</p>
-            </div>
-            <div class="genre">
-              <p>Fantasy</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/spiderMan.jpg"
-              alt="Spider-Man: Across the Spider-Verse"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Spider-Man: Across the Spider-Verse</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>140m</p>
-            </div>
-            <div class="genre">
-              <p>Action</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/guardiansOfTheGalaxyVol3.jpg"
-              alt="Guardians of the Galaxy Vol. 3"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Guardians of the Galaxy Vol. 3</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>150m</p>
-            </div>
-            <div class="genre">
-              <p>Sci-fi</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/theLittleMermaid.jpg"
-              alt="The Little Mermaid"
-            />
-          </div>
-          <div class="movie-name">
-            <p>The Little Mermaid</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>135m</p>
-            </div>
-            <div class="genre">
-              <p>Fantasy</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/theMothersDay.jpg"
-              alt="Mother's Day"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Mother's Day</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>94m</p>
-            </div>
-            <div class="genre">
-              <p>Thriller</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img src="./resources/img/moviePoster/robots.jpg" alt="Robots" />
-          </div>
-          <div class="movie-name">
-            <p>Robots</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>93m</p>
-            </div>
-            <div class="genre">
-              <p>Sci-fi</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/loveAgain.jpg"
-              alt="Love Again"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Love Again</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>104m</p>
-            </div>
-            <div class="genre">
-              <p>Romance</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/hypnotic.jpg"
-              alt="Hypnotic"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Hypnotic</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>93m</p>
-            </div>
-            <div class="genre">
-              <p>Thriller</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/warOfTheWorldsTheAttack.jpg"
-              alt="War of the Worlds: The Attack"
-            />
-          </div>
-          <div class="movie-name">
-            <p>War of the Worlds: The Attack</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>85m</p>
-            </div>
-            <div class="genre">
-              <p>Sci-fi</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img src="./resources/img/moviePoster/paint.jpg" alt="Paint" />
-          </div>
-          <div class="movie-name">
-            <p>Paint</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>96m</p>
-            </div>
-            <div class="genre">
-              <p>Comedy</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/bookClub.jpg"
-              alt="Book Club: The Next Chapter"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Book Club: The Next Chapter</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>107m</p>
-            </div>
-            <div class="genre">
-              <p>comedy</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/sweetWater.jpg"
-              alt="Sweetwater"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Sweetwater</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>118m</p>
-            </div>
-            <div class="genre">
-              <p>Sports</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/evilDeadRise.jpg"
-              alt="Evil Dead Rise"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Evil Dead Rise</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>96m</p>
-            </div>
-            <div class="genre">
-              <p>Horror</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/guyRitchie'sTheCovenant.jpg"
-              alt="Guy Ritchie's the Covenant"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Guy Ritchie's the Covenant</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>123m</p>
-            </div>
-            <div class="genre">
-              <p>War</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/bigGeorgeForeman.jpg"
-              alt="Big George Foreman"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Big George Foreman</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>129m</p>
-            </div>
-            <div class="genre">
-              <p>Sports</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/thsBlackDemonPoster.jpg"
-              alt="The Black Demon"
-            />
-          </div>
-          <div class="movie-name">
-            <p>The Black Demon</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>100m</p>
-            </div>
-            <div class="genre">
-              <p>Mystery</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img src="./resources/img/moviePoster/sisuPoster.jpg" alt="Sisu" />
-          </div>
-          <div class="movie-name">
-            <p>Sisu</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>91m</p>
-            </div>
-            <div class="genre">
-              <p>War</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/toCatchAKillerPoster.jpg"
-              alt="To Catch a Killer"
-            />
-          </div>
-          <div class="movie-name">
-            <p>To Catch a Killer</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>119m</p>
-            </div>
-            <div class="genre">
-              <p>Thriller</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/brooklyn45Poster.jpg"
-              alt="Brooklyn 45"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Brooklyn 45</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>92m</p>
-            </div>
-            <div class="genre">
-              <p>Horror</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/theSecretKingdom.jpg"
-              alt="The Secret Kingdom"
-            />
-          </div>
-          <div class="movie-name">
-            <p>The Secret Kingdom</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>98m</p>
-            </div>
-            <div class="genre">
-              <p>Fantasy</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/iLikeMovies.jpg"
-              alt="I Like Movies"
-            />
-          </div>
-          <div class="movie-name">
-            <p>I Like Movies</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>99m</p>
-            </div>
-            <div class="genre">
-              <p>Comedy</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/transformersRiseoftheBeastsPoster.jpg"
-              alt="Transformers: Rise of the Beasts"
-            />
-          </div>
-          <div class="movie-name">
-            <p>Transformers: Rise of the Beasts</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>127m</p>
-            </div>
-            <div class="genre">
-              <p>Action</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con hidden">
-          <div class="movie-poster">
-            <img
-              src="./resources/img/moviePoster/youToYouPoster.jpg"
-              alt="You Do You"
-            />
-          </div>
-          <div class="movie-name">
-            <p>You Do You</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>99m</p>
-            </div>
-            <div class="genre">
-              <p>Comedy</p>
-            </div>
-          </div>
+        <a href="movie.php?id=2">
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/dungeons&dragons.jpg"
+                alt="dungeons&dragons"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Dungeons & Dragons</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>134m</p>
+              </div>
+              <div class="genre">
+                <p>Fantasy</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="movie.php?id=3">
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img src="./resources/img/moviePoster/ghosted.jpg" alt="ghosted" />
+            </div>
+            <div class="movie-name">
+              <p>Ghosted</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>116m</p>
+              </div>
+              <div class="genre">
+                <p>Action</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="movie.php?id=4">
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/johnWick4.jpg"
+                alt="johnWick4"
+              />
+            </div>
+            <div class="movie-name">
+              <p>John Wick 4</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>169m</p>
+              </div>
+              <div class="genre">
+                <p>Action</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="movie.php?id=5">
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/murderMystery2.jpg"
+                alt="murderMystery2"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Murder Mystery 2</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>89m</p>
+              </div>
+              <div class="genre">
+                <p>Mystery</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="movie.php?id=6">
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/pope'sExorcist.jpg"
+                alt="pope'sExorcist"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Pope's Exorcist</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>103m</p>
+              </div>
+              <div class="genre">
+                <p>Horror</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="movie.php?id=7">
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/tin&tina.jpg"
+                alt="tin&tina"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Tin & Tina</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>119m</p>
+              </div>
+              <div class="genre">
+                <p>Thriller</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="movie.php?id=8">
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/unlocked.jpg"
+                alt="unlocked"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Unlocked</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>117m</p>
+              </div>
+              <div class="genre">
+                <p>Thriller</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="movie.php?id=9">
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img src="./resources/img/moviePoster/jungE.jpg" alt="June_E" />
+            </div>
+            <div class="movie-name">
+              <p>June_E</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>99m</p>
+              </div>
+              <div class="genre">
+                <p>Sci-fi</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="movie.php?id=10">
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img src="./resources/img/moviePoster/sharper.jpg" alt="Sharper" />
+            </div>
+            <div class="movie-name">
+              <p>Sharper</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>116m</p>
+              </div>
+              <div class="genre">
+                <p>Drama</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="movie.php?id=11">
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img src="./resources/img/moviePoster/shazam.jpg" alt="Shazam" />
+            </div>
+            <div class="movie-name">
+              <p>Shazam</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>130m</p>
+              </div>
+              <div class="genre">
+                <p>Action</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="movie.php?id=12">
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img src="./resources/img/moviePoster/tetris.jpg" alt="Tetris" />
+            </div>
+            <div class="movie-name">
+              <p>Tetris</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>118m</p>
+              </div>
+              <div class="genre">
+                <p>Drama</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="movie.php?id=13">
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/legionofSuperHeroes.jpg"
+                alt="legionofSuperHeroes"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Legion of Super-Heroes</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>83m</p>
+              </div>
+              <div class="genre">
+                <p>Action</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="movie.php?id=14">
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/knockattheCabin.jpg"
+                alt="knockattheCabin"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Knock at the Cabin</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>100m</p>
+              </div>
+              <div class="genre">
+                <p>Horror</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- <a href="movie.php?id="> -->
+          <!-- <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/antMan.jpg"
+                alt="Ant-Man and the Wasp: Quantumania"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Ant-Man and the Wasp: Quantumania</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>125m</p>
+              </div>
+              <div class="genre">
+                <p>Action</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img src="./resources/img/moviePoster/fastX.jpg" alt="Fast X" />
+            </div>
+            <div class="movie-name">
+              <p>Fast X</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>141m</p>
+              </div>
+              <div class="genre">
+                <p>Action</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/theSuperMarioBros..jpg"
+                alt="theSuperMarioBros."
+              />
+            </div>
+            <div class="movie-name">
+              <p>The Super Mario Bros.</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>92m</p>
+              </div>
+              <div class="genre">
+                <p>Fantasy</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/spiderMan.jpg"
+                alt="Spider-Man: Across the Spider-Verse"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Spider-Man: Across the Spider-Verse</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>140m</p>
+              </div>
+              <div class="genre">
+                <p>Action</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/guardiansOfTheGalaxyVol3.jpg"
+                alt="Guardians of the Galaxy Vol. 3"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Guardians of the Galaxy Vol. 3</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>150m</p>
+              </div>
+              <div class="genre">
+                <p>Sci-fi</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/theLittleMermaid.jpg"
+                alt="The Little Mermaid"
+              />
+            </div>
+            <div class="movie-name">
+              <p>The Little Mermaid</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>135m</p>
+              </div>
+              <div class="genre">
+                <p>Fantasy</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/theMothersDay.jpg"
+                alt="Mother's Day"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Mother's Day</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>94m</p>
+              </div>
+              <div class="genre">
+                <p>Thriller</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img src="./resources/img/moviePoster/robots.jpg" alt="Robots" />
+            </div>
+            <div class="movie-name">
+              <p>Robots</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>93m</p>
+              </div>
+              <div class="genre">
+                <p>Sci-fi</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/loveAgain.jpg"
+                alt="Love Again"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Love Again</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>104m</p>
+              </div>
+              <div class="genre">
+                <p>Romance</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/hypnotic.jpg"
+                alt="Hypnotic"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Hypnotic</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>93m</p>
+              </div>
+              <div class="genre">
+                <p>Thriller</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/warOfTheWorldsTheAttack.jpg"
+                alt="War of the Worlds: The Attack"
+              />
+            </div>
+            <div class="movie-name">
+              <p>War of the Worlds: The Attack</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>85m</p>
+              </div>
+              <div class="genre">
+                <p>Sci-fi</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img src="./resources/img/moviePoster/paint.jpg" alt="Paint" />
+            </div>
+            <div class="movie-name">
+              <p>Paint</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>96m</p>
+              </div>
+              <div class="genre">
+                <p>Comedy</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/bookClub.jpg"
+                alt="Book Club: The Next Chapter"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Book Club: The Next Chapter</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>107m</p>
+              </div>
+              <div class="genre">
+                <p>comedy</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/sweetWater.jpg"
+                alt="Sweetwater"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Sweetwater</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>118m</p>
+              </div>
+              <div class="genre">
+                <p>Sports</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/evilDeadRise.jpg"
+                alt="Evil Dead Rise"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Evil Dead Rise</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>96m</p>
+              </div>
+              <div class="genre">
+                <p>Horror</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/guyRitchie'sTheCovenant.jpg"
+                alt="Guy Ritchie's the Covenant"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Guy Ritchie's the Covenant</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>123m</p>
+              </div>
+              <div class="genre">
+                <p>War</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/bigGeorgeForeman.jpg"
+                alt="Big George Foreman"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Big George Foreman</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>129m</p>
+              </div>
+              <div class="genre">
+                <p>Sports</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/thsBlackDemonPoster.jpg"
+                alt="The Black Demon"
+              />
+            </div>
+            <div class="movie-name">
+              <p>The Black Demon</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>100m</p>
+              </div>
+              <div class="genre">
+                <p>Mystery</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img src="./resources/img/moviePoster/sisuPoster.jpg" alt="Sisu" />
+            </div>
+            <div class="movie-name">
+              <p>Sisu</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>91m</p>
+              </div>
+              <div class="genre">
+                <p>War</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/toCatchAKillerPoster.jpg"
+                alt="To Catch a Killer"
+              />
+            </div>
+            <div class="movie-name">
+              <p>To Catch a Killer</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>119m</p>
+              </div>
+              <div class="genre">
+                <p>Thriller</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/brooklyn45Poster.jpg"
+                alt="Brooklyn 45"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Brooklyn 45</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>92m</p>
+              </div>
+              <div class="genre">
+                <p>Horror</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/theSecretKingdom.jpg"
+                alt="The Secret Kingdom"
+              />
+            </div>
+            <div class="movie-name">
+              <p>The Secret Kingdom</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>98m</p>
+              </div>
+              <div class="genre">
+                <p>Fantasy</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/iLikeMovies.jpg"
+                alt="I Like Movies"
+              />
+            </div>
+            <div class="movie-name">
+              <p>I Like Movies</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>99m</p>
+              </div>
+              <div class="genre">
+                <p>Comedy</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/transformersRiseoftheBeastsPoster.jpg"
+                alt="Transformers: Rise of the Beasts"
+              />
+            </div>
+            <div class="movie-name">
+              <p>Transformers: Rise of the Beasts</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>127m</p>
+              </div>
+              <div class="genre">
+                <p>Action</p>
+              </div>
+            </div>
+          </div>
+          <div class="movie-con hidden">
+            <div class="movie-poster">
+              <img
+                src="./resources/img/moviePoster/youToYouPoster.jpg"
+                alt="You Do You"
+              />
+            </div>
+            <div class="movie-name">
+              <p>You Do You</p>
+            </div>
+            <div class="details-con">
+              <div class="movie-details">
+                <p>2023</p>
+                <p>99m</p>
+              </div>
+              <div class="genre">
+                <p>Comedy</p>
+              </div>
+            </div> -->
+        </a>
+          
       </div>
+      <footer>
+            &copy; Eyewatch 2023
+          </footer>
     </div>
   </body>
 </html>

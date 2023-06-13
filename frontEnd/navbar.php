@@ -6,10 +6,10 @@
           <img src="resources/img/logo.png" alt="EyewatchLogo" />
           <div class="full-menu hide">
             <div class="menu-option">
-              <a href="home.html">Home</a>
+              <a href="home.php">Home</a>
             </div>
             <div class="menu-option">
-              <a href="#">Movies</a>
+              <a href="movie.php">Movies</a>
             </div>
             <div class="menu-option">
               <a href="#">Genre</a>

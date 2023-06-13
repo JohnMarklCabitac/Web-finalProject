@@ -611,13 +611,18 @@ body {
   border: 2px rgb(247, 28, 61) solid;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* ----------MOVIE---------- */
 .movie {
   width: 100%;
   height: auto;
   display: flex;
   display: grid;
-  gap: 2em;
+  gap: 4em;
   padding: 2em;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 }
@@ -764,4 +769,13 @@ body {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
+}
+
+footer {
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  width: 95vw;
+  padding: 2em;
+  overflow-x: hidden;
 }
