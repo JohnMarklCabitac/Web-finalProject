@@ -705,15 +705,135 @@
         </div>
         <div class="movie-con">
           <div class="movie-poster">
-            <img src="./resources/img/moviePoster/fastX.jpg" alt="Fast X" />
+            <img
+              src="./resources/img/moviePoster/thsBlackDemonPoster.jpg"
+              alt="The Black Demon"
+            />
           </div>
           <div class="movie-name">
-            <p>Fast X</p>
+            <p>The Black Demon</p>
           </div>
           <div class="details-con">
             <div class="movie-details">
               <p>2023</p>
-              <p>141m</p>
+              <p>100m</p>
+            </div>
+            <div class="genre">
+              <p>Mystery</p>
+            </div>
+          </div>
+        </div>
+        <div class="movie-con">
+          <div class="movie-poster">
+            <img src="./resources/img/moviePoster/sisuPoster.jpg" alt="Sisu" />
+          </div>
+          <div class="movie-name">
+            <p>Sisu</p>
+          </div>
+          <div class="details-con">
+            <div class="movie-details">
+              <p>2023</p>
+              <p>91m</p>
+            </div>
+            <div class="genre">
+              <p>War</p>
+            </div>
+          </div>
+        </div>
+        <div class="movie-con">
+          <div class="movie-poster">
+            <img
+              src="./resources/img/moviePoster/toCatchAKillerPoster.jpg"
+              alt="To Catch a Killer"
+            />
+          </div>
+          <div class="movie-name">
+            <p>To Catch a Killer</p>
+          </div>
+          <div class="details-con">
+            <div class="movie-details">
+              <p>2023</p>
+              <p>119m</p>
+            </div>
+            <div class="genre">
+              <p>Thriller</p>
+            </div>
+          </div>
+        </div>
+        <div class="movie-con">
+          <div class="movie-poster">
+            <img
+              src="./resources/img/moviePoster/brooklyn45Poster.jpg"
+              alt="Brooklyn 45"
+            />
+          </div>
+          <div class="movie-name">
+            <p>Brooklyn 45</p>
+          </div>
+          <div class="details-con">
+            <div class="movie-details">
+              <p>2023</p>
+              <p>92m</p>
+            </div>
+            <div class="genre">
+              <p>Horror</p>
+            </div>
+          </div>
+        </div>
+        <div class="movie-con">
+          <div class="movie-poster">
+            <img
+              src="./resources/img/moviePoster/theSecretKingdom.jpg"
+              alt="The Secret Kingdom"
+            />
+          </div>
+          <div class="movie-name">
+            <p>The Secret Kingdom</p>
+          </div>
+          <div class="details-con">
+            <div class="movie-details">
+              <p>2023</p>
+              <p>98m</p>
+            </div>
+            <div class="genre">
+              <p>Fantasy</p>
+            </div>
+          </div>
+        </div>
+        <div class="movie-con">
+          <div class="movie-poster">
+            <img
+              src="./resources/img/moviePoster/iLikeMovies.jpg"
+              alt="I Like Movies"
+            />
+          </div>
+          <div class="movie-name">
+            <p>I Like Movies</p>
+          </div>
+          <div class="details-con">
+            <div class="movie-details">
+              <p>2023</p>
+              <p>99m</p>
+            </div>
+            <div class="genre">
+              <p>Comedy</p>
+            </div>
+          </div>
+        </div>
+        <div class="movie-con">
+          <div class="movie-poster">
+            <img
+              src="./resources/img/moviePoster/transformersRiseoftheBeastsPoster.jpg"
+              alt="Transformers: Rise of the Beasts"
+            />
+          </div>
+          <div class="movie-name">
+            <p>Transformers: Rise of the Beasts</p>
+          </div>
+          <div class="details-con">
+            <div class="movie-details">
+              <p>2023</p>
+              <p>127m</p>
             </div>
             <div class="genre">
               <p>Action</p>
@@ -722,123 +842,23 @@
         </div>
         <div class="movie-con">
           <div class="movie-poster">
-            <img src="./resources/img/moviePoster/fastX.jpg" alt="Fast X" />
+            <img
+              src="./resources/img/moviePoster/youToYouPoster.jpg"
+              alt="You Do You"
+            />
           </div>
           <div class="movie-name">
-            <p>Fast X</p>
+            <p>You Do You</p>
           </div>
           <div class="details-con">
             <div class="movie-details">
               <p>2023</p>
-              <p>141m</p>
+              <p>99m</p>
             </div>
             <div class="genre">
-              <p>Action</p>
+              <p>Comedy</p>
             </div>
           </div>
-        </div>
-        <div class="movie-con">
-          <div class="movie-poster">
-            <img src="./resources/img/moviePoster/fastX.jpg" alt="Fast X" />
-          </div>
-          <div class="movie-name">
-            <p>Fast X</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>141m</p>
-            </div>
-            <div class="genre">
-              <p>Action</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con">
-          <div class="movie-poster">
-            <img src="./resources/img/moviePoster/fastX.jpg" alt="Fast X" />
-          </div>
-          <div class="movie-name">
-            <p>Fast X</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>141m</p>
-            </div>
-            <div class="genre">
-              <p>Action</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con">
-          <div class="movie-poster">
-            <img src="./resources/img/moviePoster/fastX.jpg" alt="Fast X" />
-          </div>
-          <div class="movie-name">
-            <p>Fast X</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>141m</p>
-            </div>
-            <div class="genre">
-              <p>Action</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con">
-          <div class="movie-poster">
-            <img src="./resources/img/moviePoster/fastX.jpg" alt="Fast X" />
-          </div>
-          <div class="movie-name">
-            <p>Fast X</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>141m</p>
-            </div>
-            <div class="genre">
-              <p>Action</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con">
-          <div class="movie-poster">
-            <img src="./resources/img/moviePoster/fastX.jpg" alt="Fast X" />
-          </div>
-          <div class="movie-name">
-            <p>Fast X</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>141m</p>
-            </div>
-            <div class="genre">
-              <p>Action</p>
-            </div>
-          </div>
-        </div>
-        <div class="movie-con">
-          <div class="movie-poster">
-            <img src="./resources/img/moviePoster/fastX.jpg" alt="Fast X" />
-          </div>
-          <div class="movie-name">
-            <p>Fast X</p>
-          </div>
-          <div class="details-con">
-            <div class="movie-details">
-              <p>2023</p>
-              <p>141m</p>
-            </div>
-            <div class="genre">
-              <p>Action</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </body>
