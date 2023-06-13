@@ -45,10 +45,10 @@
         </div>
         <div class="navbar-sub-2">
           <div class="log-in">
-            <form action="index.php">
+            <form action="editPassword.php">
               <button class="loginbutton" type="submit">
                 <i class="fa-solid fa-user fa-lg" style="color: #ffffff"></i>
-                <p>Log in</p>
+                <p>Account</p>
               </button>
             </form>
           </div>

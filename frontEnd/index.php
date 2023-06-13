@@ -14,32 +14,60 @@
 </head>
 <body>
   <!-- Login -->
-  <<div class="main-login-con">
+  <?php
+    require('config/config.php');
+    require('config/db.php');
+    session_start();
+    // CRUD - read
+    // Get the username and password from the user input 
+    if(isset($_POST['submit'])) {
+      $inputUsername = $_POST['username'];
+      $inputPassword = $_POST['password'];
+
+      // Prepare and execute the SQL query
+      $sql = "SELECT * FROM account WHERE username = '$inputUsername' AND password = '$inputPassword'";
+      $result = $conn->query($sql);
+
+      // Check if the query returned any rows
+      if ($result->num_rows > 0) {
+          // Username and password match
+          $_SESSION['username'] = $inputUsername;
+          header("Location: home.php");
+      } else {
+          // Username and password do not match
+          echo "Username and password are not the same!";
+      }
+    }
+
+    // Close the database connection
+    $conn->close();
+    ?>
+  <div class="main-login-con">
         <div class="login-form">
           <div class="login-top">
             <img src="./resources/img/logo-01.png" alt="" />
             <h2>Log-in</h2>
           </div>
           <div class="login-form-con">
-            <form>
+            <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>">
               <p>Username</p>
               <div class="login-form-input">
-                <input type="text" required id="#" name="#" />
+                <input type="text" required id="#" name="username" />
                 <i class="fa-solid fa-user fa-lg" style="color: #ffffff"></i>
               </div>
               <p>Password</p>
               <div class="login-form-input">
-                <input type="password" required id="#" name="#" />
+                <input type="password" required id="#" name="password" />
                 <i class="fa-solid fa-lock fa-lg" style="color: #ffffff"></i>
               </div>
               <div class="term">
-                <input type="checkbox" id="#" name="#" />
+                <input type="checkbox" id="#" />
                 Remember me
               </div>
+              <div class="login-btn">
+                <button type="submit" name="submit">Log In</button>
+              </div>
             </form>
-            <div class="login-btn">
-              <button type="submit">Log In</button>
-            </div>
 
             <div class="reg">
               <form action="signup.php">

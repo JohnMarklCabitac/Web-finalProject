@@ -20,53 +20,6 @@
       <?php include 'navbar.php'?>
       <!-- navbar-end -->
 
-      <!-- Signin -->
-      <div class="main-signin-con hide">
-        <div class="signin-form">
-          <div class="close">
-            <i
-              class="fa-sharp fa-regular fa-circle-xmark fa-xl"
-              style="color: #ffa53e"
-            ></i>
-          </div>
-          <div class="signin-top">
-            <img src="./resources/img/logo-01.png" alt="" />
-            <h2>Sign-in</h2>
-          </div>
-          <div class="signin-form-con">
-            <form>
-              <p>Username</p>
-              <div class="signin-form-input">
-                <input type="text" required />
-                <i class="fa-solid fa-user fa-lg" style="color: #ffffff"></i>
-              </div>
-              <p>Email</p>
-              <div class="signin-form-input">
-                <input type="email" required />
-                <i
-                  class="fa-solid fa-envelope fa-lg"
-                  style="color: #ffffff"
-                ></i>
-              </div>
-              <p>Password</p>
-              <div class="signin-form-input">
-                <input type="password" required />
-                <i class="fa-solid fa-lock fa-lg" style="color: #ffffff"></i>
-              </div>
-              <p>Repeat Password</p>
-              <div class="signin-form-input">
-                <input type="password" required />
-                <i class="fa-solid fa-lock fa-lg" style="color: #ffffff"></i>
-              </div>
-            </form>
-            <div class="signin-btn">
-              <button type="submit">Sign in</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Signin-end -->
-
       <!-- Rolling-poster -->
       <div class="slideshow-container">
         <div class="slides">
@@ -890,3 +843,70 @@
     </div>
   </body>
 </html>
+
+
+<!-- 
+  Generate a movie description for each of the titles below:
+65
+Dungeons & Dragons
+Ghosted
+John Wick 4
+Murder Mystery 2
+Pope's Exorcist
+Tin & Tina
+Unlocked
+June_E
+Sharper
+Shazam
+Tetris
+Legion of Super-Heroes
+Knock at the Cabin
+Ant-Man and the Wasp: Quantumania
+Fast X
+The Super Mario Bros.
+Spider-Man: Across the Spider-Verse
+Guardians of the Galaxy Vol. 3
+The Little Mermaid
+Mother's Day
+Robots
+Love Again
+Hypnotic
+War of the Worlds: The Attack
+Paint
+Book Club: The Next Chapter
+Sweetwater
+Evil Dead Rise
+Guy Ritchie's the Covenant
+Big George Foreman
+
+65: A retired special forces officer is trapped in a never-ending time loop on the day of his death.
+Dungeons & Dragons: A group of adventurers embark on a dangerous journey through a magical realm in order to save their kingdom.
+Ghosted: A man is recruited by a secret government agency to track down his former partner who has gone rogue.
+John Wick 4: John Wick is on the run after killing a member of the High Table. He must find a way to escape New York City before a $14 million contract on his life expires.
+Murder Mystery 2: A couple on vacation in Europe become embroiled in a murder mystery when they are framed for the murder of an elderly billionaire.
+Pope’s Exorcist: A young priest is sent to Rome to train as an exorcist and must confront his own demons in order to save a young girl from possession.
+Tin & Tina: A young couple move into their dream home only to discover that it is haunted by the ghost of a previous owner.
+Unlocked: A CIA agent must race against time to stop a biological attack on London.
+June_E: A woman wakes up with no memory of who she is or how she got there and must piece together her past before it’s too late.
+Sharper: A con artist uses her skills to swindle wealthy men out of their money but finds herself in over her head when she becomes the target of an FBI investigation.
+Shazam: A teenage boy is given the power to transform into an adult superhero by saying the word “Shazam!”.
+Tetris: The story of how the classic video game Tetris was created and became a worldwide phenomenon.
+Legion of Super-Heroes: A group of teenage superheroes from the future travel back in time to recruit Superman to help them save the universe.
+Knock at the Cabin: A group of friends on a weekend getaway are terrorized by an unknown assailant.
+Ant-Man and the Wasp: Quantumania: Scott Lang teams up with Hope van Dyne and Hank Pym once again to explore the quantum realm and uncover secrets from their past.
+Fast X: The tenth installment in the Fast and Furious franchise sees Dom Toretto facing off against his most dangerous enemy yet.
+The Super Mario Bros.: Two brothers must rescue Princess Peach from the evil Bowser in this live-action adaptation of the classic video game.
+Spider-Man: Across the Spider-Verse: The sequel to Spider-Man: Into the Spider-Verse sees Miles Morales teaming up with other versions of Spider-Man from different dimensions to stop a new threat.
+Guardians of the Galaxy Vol. 3: The third installment in the Guardians of the Galaxy franchise sees Peter Quill and his team facing off against a new threat while also dealing with personal issues.
+The Little Mermaid: A live-action adaptation of the classic Disney animated film about a mermaid who falls in love with a human prince.
+Mother’s Day: The lives of several mothers intersect on Mother’s Day.
+Robots: In a world where robots have replaced humans in most jobs, one robot sets out to prove that he can be more than just a machine.
+Love Again: A woman must choose between two men when her ex-boyfriend returns after years apart.
+Hypnotic: A detective investigates a series of mysterious deaths that all seem to be connected to hypnosis.
+War of the Worlds: The Attack: An alien invasion threatens humanity’s survival in this modern retelling of H.G. Wells’ classic novel.
+Paint: An artist struggling with writer’s block finds inspiration in an unexpected place.
+Book Club: The Next Chapter: The members of a book club reunite for another round of literary discussions and personal revelations.
+Sweetwater: A young woman seeks revenge against those who wronged her family in this Western revenge tale.
+Evil Dead Rise: Two estranged sisters must team up to fight off demonic forces when they become trapped in an apartment building during an outbreak of evil deadites.
+Guy Ritchie’s The Covenant: Four friends discover they are descendants of powerful witches and must use their newfound powers to stop an evil force from destroying their town.
+ -->
