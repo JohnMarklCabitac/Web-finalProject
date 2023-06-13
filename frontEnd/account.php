@@ -8,7 +8,7 @@
       src="https://kit.fontawesome.com/0d215fdffe.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./css/signup.css" />
+    <link rel="stylesheet" href="./css/account.css" />
   <title>Sign up</title>
 </head>
 <body>
@@ -67,6 +67,9 @@
               </div>
               <div class="signin-btn">
                 <button type="button"><a href="home.php">Back</a></button>
+              </div>
+              <div class="signin-btn">
+                <button type="button"><a href="index.php">Logout</a></button>
               </div>
             </form>
           </div>

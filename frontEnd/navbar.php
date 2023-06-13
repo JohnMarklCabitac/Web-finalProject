@@ -45,7 +45,7 @@
         </div>
         <div class="navbar-sub-2">
           <div class="log-in">
-            <form action="editPassword.php">
+            <form action="account.php">
               <button class="loginbutton" type="submit">
                 <i class="fa-solid fa-user fa-lg" style="color: #ffffff"></i>
                 <p>Account</p>
