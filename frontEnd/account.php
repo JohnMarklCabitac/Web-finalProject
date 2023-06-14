@@ -40,6 +40,7 @@
       }
     ?>
     <?php
+    // CRUD - Delete
       $username = $_SESSION['username'];
       if(isset($_POST['delete'])) {
         $query = "DELETE FROM account WHERE username = '$username'";
