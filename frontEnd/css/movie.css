@@ -32,14 +32,66 @@ hr {
   gap: 2em;
 }
 
+@media screen and (max-width: 600px) {
+  .movie-card {
+    flex-direction: column;
+  }
+}
+
 .movie-card img {
-  width: 10%;
+  width: max(95px, 10%);
 }
 
 .movie-card img:hover {
   scale: 1.1;
   transition: scale 250ms;
 }
+
+/* ----------Comment Input------------*/
+
+.comment-input {
+  padding: 3em 3em 0 3em;
+}
+
+.comment-input input,
+.comment-input button {
+  all: unset;
+}
+
+.comment-input input {
+  border-bottom: rgba(255, 255, 255, 0.5) 1px solid;
+  /* border-radius: 6px; */
+  font-size: 1em;
+  padding: 0.25em;
+  margin: 1em 0;
+  width: min(80%, 1000px);
+}
+
+.comment-input input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.comment-input button {
+  border: rgba(255, 255, 255, 0.5) 1px solid;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+}
+
+.comment-card {
+  padding: 1em 3em;
+}
+
+.comment-card .comment-username {
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 0.5em;
+}
+
+/* @media screen and (max-width: 600px) {
+  .comment-input input {
+    width: max
+  }
+} */
 
 /* ----------NAV-BAR----------- */
 
@@ -186,4 +238,58 @@ hr {
 }
 .log-in p {
   box-shadow: none !important;
+}
+
+@media screen and (max-width: 1080px) {
+  div.log-in p {
+    display: none;
+  }
+  div.log-in {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+  }
+  div.category p {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  div.search-area {
+    padding-right: 20px;
+  }
+  div.navbar-sub-1 {
+    justify-content: end;
+    margin-left: 20px;
+  }
+  div.navbar-sub-2 {
+    justify-content: end;
+  }
+  div.full-menu {
+    margin-left: -150px;
+  }
+  .navbar {
+    height: 8vh;
+  }
+  div.navbar-sub img {
+    width: 140px;
+    height: 30px;
+  }
+  div.banner {
+    height: 75vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  div.search-area {
+    display: none;
+  }
+  div.search-bar {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div.banner {
+    height: 40vh;
+  }
 }
