@@ -134,6 +134,11 @@ body {
   font-size: 0.9em;
   font-weight: light;
 }
+
+.reg button {
+  all: unset;
+  color: #fe9130;
+}
 .reg a {
   color: rgb(255, 165, 46);
 }
