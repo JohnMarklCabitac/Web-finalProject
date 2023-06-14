@@ -1,9 +1,6 @@
 <div class="navbar">
         <div class="navbar-sub">
-          <div class="menu">
-            <i class="fa-solid fa-bars fa-2xl"></i>
-          </div>
-          <img src="resources/img/logo.png" alt="EyewatchLogo" />
+          <a href="home.php"><img src="resources/img/logo.png" alt="EyewatchLogo" /></a>
           <div class="full-menu hide">
             <div class="menu-option">
               <a href="home.php">Home</a>

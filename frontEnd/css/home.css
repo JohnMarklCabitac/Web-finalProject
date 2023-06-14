@@ -38,6 +38,7 @@ body {
   height: 100%;
   width: 33.33%;
   align-items: center;
+  margin-left: 1em;
 }
 .navbar-sub img {
   width: 166px;
@@ -477,6 +478,7 @@ body {
   height: 50px;
   gap: 10px;
 }
+
 .mid-banner-2 {
   display: flex;
   justify-content: start;
@@ -487,6 +489,14 @@ body {
   color: white;
   padding-left: 20px;
 }
+
+@media screen and (max-width: 600px) {
+  .mid-banner-1,
+  .mid-banner-2 {
+    display: none;
+  }
+}
+
 .mid-banner-2 p {
   font-weight: light;
   font-size: 3vmin;
@@ -742,7 +752,7 @@ a {
   position: absolute;
   margin-bottom: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(-150%);
 }
 
 .dot-tracker span {

@@ -112,6 +112,7 @@ hr {
   height: 100%;
   width: 33.33%;
   align-items: center;
+  margin-left: 1em;
 }
 .navbar-sub img {
   width: 166px;

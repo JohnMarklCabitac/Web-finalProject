@@ -84,7 +84,9 @@
               echo '</div>';
           }
       } else {
-          echo "Empty.";
+        echo '<div class="comment-card">';
+        echo '<p class="comment-username">Empty</p>';
+        echo '</div>';
       }
       
       // Close the database connection
