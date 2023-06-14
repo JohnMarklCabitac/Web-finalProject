@@ -19,7 +19,8 @@
     require('config/db.php');
     session_start();
     // CRUD - read
-    // Get the username and password from the user input 
+    // Get the username and password from the user input
+    // if statement 
     if(isset($_POST['submit'])) {
       $inputUsername = $_POST['username'];
       $inputPassword = $_POST['password'];

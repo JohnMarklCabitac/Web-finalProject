@@ -16,7 +16,7 @@ button a {
   scroll-behavior: smooth;
 }
 body {
-  background-color: rgb(28, 44, 58);
+  background-color: rgb(31, 31, 31);
   display: flex;
 }
 .disable {
@@ -37,7 +37,7 @@ body {
 .signin-form {
   display: block;
   width: 350px;
-  height: 475px;
+  height: 535px;
   z-index: index 20;
   border-radius: 10px;
   padding: 20px;

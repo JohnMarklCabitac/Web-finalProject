@@ -9,15 +9,16 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./css/account.css" />
-  <title>Sign up</title>
+  <title>Edit account</title>
 </head>
 <body>
     <?php
       require('config/config.php');
       require('config/db.php');
       session_start();
-      // CRUD
+      // CRUD - Update
       // update password to database
+      // if statement
       if(isset($_POST['submit'])) {
         $inputUsername = $_POST['username'];
         $oldPassword = $_POST['old_password'];
@@ -38,12 +39,28 @@
         }
       }
     ?>
+    <?php
+      $username = $_SESSION['username'];
+      if(isset($_POST['delete'])) {
+        $query = "DELETE FROM account WHERE username = '$username'";
+        echo $query;
+        if(mysqli_query($conn, $query)){
+          unset($_POST['delete']);
+          header('Location: index.php');
+        } else {
+          echo 'ERROR: '.mysqli_error($conn);
+          unset($_POST['delete']);
+        }
+      }
+    
+    
+    ?>
   <div class="main-signin-con hide">
         <div class="signin-form">
           
           <div class="signin-top">
             <img src="./resources/img/logo-01.png" alt="" />
-            <h2>Sign-up</h2>
+            <h2>Edit password</h2>
           </div>
           <div class="signin-form-con">
             <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>">
@@ -70,6 +87,11 @@
               </div>
               <div class="signin-btn">
                 <button type="button"><a href="index.php">Logout</a></button>
+              </div>
+            </form>
+            <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>">
+              <div class="signin-btn">
+                <button type="submit" name="delete">Delete</button>
               </div>
             </form>
           </div>

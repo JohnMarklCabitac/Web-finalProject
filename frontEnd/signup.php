@@ -16,7 +16,7 @@
   <?php 
     require('config/config.php');
     require('config/db.php');
-    // CRUD
+    // CRUD - Create
     // put new account to database
     if(isset($_POST['submit'])) {
       $username = mysqli_real_escape_string($conn, $_POST['username']);
@@ -28,7 +28,7 @@
         VALUES ('$username', '$email', '$password')";
 
       if(mysqli_query($conn, $query)){
-
+        header("Location: index.php");
       } else {
         echo 'ERROR: '.mysqli_error($conn);
       }

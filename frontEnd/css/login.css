@@ -27,7 +27,7 @@ body {
   width: 100%;
   height: 100vh;
   z-index: index 15;
-  background-color: rgba(124, 143, 161, 0.7) !important;
+  background-color: rgba(29, 29, 29) !important;
 }
 .login-form {
   display: block;

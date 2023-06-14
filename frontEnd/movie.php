@@ -41,6 +41,7 @@
   ?>
 
   <?php
+    // CRUD - Create
     if(isset($_POST['submit'])) {
       $comment = $_POST['comment'];
 
@@ -69,6 +70,7 @@
       </div>
     </form>
     <?php
+      // CRUD - read
       // Query all movies from the 'movies' table
       $sql = "SELECT * FROM comments WHERE movie_id = ". $_GET['id'] ."";
       // $result is an array

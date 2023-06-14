@@ -1,3 +1,4 @@
+// DOM Manipulation
 document.addEventListener("DOMContentLoaded", function () {
   var icon = document.querySelector(".fa-bars");
   var fullCart = document.querySelector(".full-menu");
@@ -74,6 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// OOP - Encapsulation
 const observer = new IntersectionObserver((entries) => {
   // the entries variable is an array
   // we're using the forEach loop function to iterate through the array
