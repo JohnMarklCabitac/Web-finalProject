@@ -23,26 +23,7 @@
           </div>
         </div>
 
-        <div class="navbar-sub-1">
-          <div class="search-bar">
-            <div class="search-area">
-              <form>
-                <input
-                  type="text"
-                  id="movie"
-                  name="movie"
-                  placeholder="Search movies..."
-                />
-              </form>
-            </div>
-            <div class="search-btn">
-              <i
-                class="fa-solid fa-magnifying-glass fa-lg"
-                style="color: #f71c3d"
-              ></i>
-            </div>
-          </div>
-        </div>
+        
         <div class="navbar-sub-2">
           <div class="log-in">
             <form action="account.php">

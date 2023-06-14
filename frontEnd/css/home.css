@@ -27,12 +27,11 @@ body {
 .navbar {
   display: flex;
   height: 12vh;
-  background: linear-gradient(
-    178.6deg,
-    rgb(20, 36, 50) 11.8%,
-    rgb(124, 143, 161) 83.8%
-  );
+  width: 100vw;
+  background-color: rgb(24, 24, 24);
+
   z-index: 10;
+  justify-content: space-between;
 }
 .navbar-sub {
   display: flex;
